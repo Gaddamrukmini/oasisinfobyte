@@ -1,0 +1,99 @@
+.container{
+    background: rgba(212, 28, 163, 0.53);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+body{
+   
+    background-color: rgb(61, 31, 151);
+    border: 2px;
+
+}
+h1{
+    color: rgb(17, 147, 71);
+    font-size: 52px;
+    text-justify: newspaper;
+    text-align: center;
+}
+.textview{
+    display: inline-block;
+    margin: 2px;
+    width: 260px;
+    height: 42px;
+    font-size: 20px;
+    background-color:rgb(133, 16, 16);
+    border-radius: 10px;
+    border: none;
+}
+.equalButton {
+    cursor: pointer;
+    display: inline-block;
+    margin: 2px;
+    width: 60px;
+    height: 91px;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.button{
+    cursor: pointer;
+    display: inline-block;
+    margin: 2px;
+    width: 60px;
+    height: 42px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: rgb(25, 21, 143);
+    text-shadow: -1px -1px 0px #c21414;
+    background-color:rgb(51, 142, 33);
+    border-top: 2px solid rgb(3, 40, 94);
+    border-right: 2px solid rgb(32, 8, 83);
+    border-bottom: 2px solid #81b013;
+    border-left: 2px solid #6ba4b1;
+    outline: none;
+}
+.equalbutton{
+    border-radius: 10px;
+    color: rgb(10, 134, 87);
+    margin: 2px;
+    width: 60px;
+    height: 100px;
+    background-color:rgb(30, 2, 107);
+    border-top: 2px solid rgb(5, 162, 31);
+    border-right: 2px solid rgb(17, 121, 52);
+    border-bottom: 2px solid #280614;
+    border-left: 2px solid #875829;
+    outline: none;
+}
+.button:active,.allclearButton:active,.equalbutton:active{
+    background-color:rgb(157, 25, 31);
+    box-shadow: 0 3px #666;
+    transform: rotateY(4px);
+}
+.button:hover,.equalbutton:hover{
+    background-color: rgb(46, 8, 135);
+    box-shadow: 0px 4px 1px #adcb16;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #AF5700;
+    border-left: 2px solid #AE5700;
+}
+.allclearButton{
+    border-radius: 10px;
+    color: #FFF;
+    margin: 2px;
+    width: 60px;
+    height: 42px;
+    text-shadow: -1px -1px 0px #44006f;
+    background-color:rgb(9, 115, 39);
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #19c65e;
+    border-left: 2px solid #8a0c67;
+    outline: none;
+}
